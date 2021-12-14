@@ -1,0 +1,143 @@
+body{
+    background-image: 
+    url(downloadd.jpg);
+    background-position: center;
+background-repeat: no-repeat;
+background-size: 100%;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+color: white;
+letter-spacing: 1px;
+}
+
+h1, h2{
+font-weight: bold;
+
+}
+h1, p {
+    color: white;
+    text-shadow: blue;
+}
+p {
+    font-size: 19px;
+}
+
+#container {
+    background-color: rgb(253, 248, 246);
+    width: 80%;
+    max-width: 19px auto;
+    border-radius: 6px;
+    box-shadow: 1px 10px 10px rosybrown;
+    box-sizing: border-box;
+    padding: 0 0 30px;
+    border: 1px solid rgb(44, 172, 214);
+    color: black;
+    margin: 80px;
+}
+#page_banner {
+    align-items: center;
+    padding: 10px, 0;
+    background-image:url(download.jpg);
+     
+}
+
+#page_banner h1,
+#page_banner p {
+        width: 100%;
+        text-align: center;
+        margin: 10px 0;
+    }
+
+#movie-list {
+    margin: 30px;
+}
+
+.tittle {
+    margin: 10px;
+}
+
+#movie-list ul {
+    list-style-type: none;
+    padding: 0;
+    margin-left: 5px;
+    font-size: 18px;
+}
+
+#movie-list li {
+    padding: 30px;
+    margin: 20px, 10px;
+    border-left: 5px solid blue ;
+ }
+
+li:hover {
+    border-color: brown;
+}
+
+
+.delete {
+    float: right;
+    background: red;
+    padding: 6px;
+    border-radius: 6px;
+    cursor: pointer;
+    color: white;
+}
+
+.delete:hover{
+    background: brown;
+}
+
+#add-movie {
+    margin: 30px;
+    width: 400px;
+}
+
+#add-movie input {
+    display: inline;
+   margin: 50px 0; 
+   padding: 19px;
+   border: 1px solid blue;
+   font-size: 16px;
+   border-radius: 10px;
+   box-sizing: border-box;
+   width: 300px;
+   clear: both;
+}
+
+
+
+#add-movie button {
+    display: flex;
+    border: 1px solid blue;
+    background-color: black;
+    padding: 15px;
+    font-size: 18px;
+    display: inline-block;
+    margin: 8px;
+    border-radius: 10px;
+    cursor: pointer;
+    border-left: 0;
+    color: white;
+}
+
+#add-movie button:hover {
+    background-color: rgb(236, 12, 12);
+}
+
+#add-movie::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#add-movie label {
+    line-height: 53px;
+}
+footer {
+    background-color: rgba(0, 0, 255, 0.329);
+}
+ ul {
+    list-style-type: none;
+    padding: 3px;
+    margin-left: 5px;
+    font-size: 10px;
+}
